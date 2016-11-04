@@ -1,0 +1,149 @@
+body {
+	font-family: "myriad-pro", "Helvetica Neue", Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 1.4em;
+	color: rgba(52,54,58,0.75);
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+a { transition: all 0.2s ease-out; }
+
+.inner {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.header {
+	background: #f16c49;
+	padding: 100px 0;
+	text-align: center;
+}
+
+.logo {
+	max-width: 400px;
+	margin: 0 auto;
+}
+.logo h1 { display: none; }
+.logo svg {
+	width: 100%;
+	max-width: 400px;
+	max-height: 100px;
+	margin: 0 auto;
+}
+.logo svg path {
+	fill: #fff;
+}
+
+.sub-heading {
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #fff;
+	margin: 40px 0 0;
+}
+
+.content {
+	padding: 100px 0;
+}
+
+.current-projects,
+.past-projects { text-align: center; }
+.current-projects { margin-top: 0; }
+.past-projects { margin-top: 2em; }
+
+.project {
+	padding: 30px;
+	border-radius: 5px;
+	margin-bottom: 1em;
+	background: #eee;
+	transition: all 0.2s ease-out;
+}
+a.project {
+	display: block;
+	text-decoration: none;
+}
+.project:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.project-title {
+	font-size: 1.3em;
+	margin: 0 0 10px;
+}
+.project-desc { margin: 0; }
+.project-meta {
+	font-size: 18px;
+}
+.project-meta .fa {
+	font-size: 16px;
+	margin-right: 5px;
+}
+.project-meta span { margin-right: 15px; }
+
+.project.web-uptime {
+	background: #6dc77a;
+	color: #fff;
+}
+.project.raneto {
+	background: #2c323d;
+	color: #fff;
+}
+.project.dev7studios {
+	background: #f16c49;
+	color: #fff;
+}
+.project.nivo-slider {
+	background: #5e6778;
+	color: #fff;
+}
+.project.wp-updates {
+	background: #000;
+	color: #fff;
+}
+.project.sellwire {
+	background: #198fbd;
+	color: #fff;
+}
+.project.pico {
+	background: #2eae9b;
+	color: #fff;
+}
+.project.makesometime {
+	background: #4bac64;
+	color: #fff;
+}
+
+.about {
+	margin-top: 100px;
+	text-align: center;
+}
+.about-avatar { border-radius: 100%; }
+.about-title {
+	font-size: 1.4em;
+	margin-bottom: 0.7em;
+}
+.about-desc { padding: 0 8%; }
+.about-links a {
+	color: #ccc;
+	margin: 0 15px;
+}
+.about-links a:hover { color: #333; }
+
+.footer {
+	background: #eef2f4;
+	padding: 60px 0;
+	font-size: 16px;
+	font-weight: normal;
+	color: #939393;
+	text-align: center;
+	text-transform: uppercase;
+}
+.footer .sep { margin: 0 10px; }
+.footer a,
+.footer a:visited { color: #939393; }
+.footer a:hover { color: #3f454a; }
