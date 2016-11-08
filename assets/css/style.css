@@ -28,6 +28,7 @@ a { transition: all 0.2s ease-out; }
 .logo {
 	max-width: 400px;
 	margin: 0 auto;
+	visibility: hidden;
 }
 .logo h1 { display: none; }
 .logo svg {
@@ -45,10 +46,12 @@ a { transition: all 0.2s ease-out; }
 	font-weight: 300;
 	color: #fff;
 	margin: 40px 0 0;
+	visibility: hidden;
 }
 
 .content {
 	padding: 100px 0;
+	visibility: hidden;
 }
 
 .current-projects,
@@ -62,13 +65,14 @@ a { transition: all 0.2s ease-out; }
 	margin-bottom: 1em;
 	background: #eee;
 	transition: all 0.2s ease-out;
+	visibility: hidden;
 }
 a.project {
 	display: block;
 	text-decoration: none;
 }
 .project:hover {
-	transform: scale(1.05);
+	transform: scale(1.05) !important;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 .project-title {
