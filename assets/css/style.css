@@ -89,12 +89,12 @@ a.project {
 }
 .project-meta span { margin-right: 15px; }
 
-.project.splashify {
-	background: #193441;
+.project.sermon-hosting {
+	background: #0785f2;
 	color: #fff;
 }
-.project.web-uptime {
-	background: #6dc77a;
+.project.splashify {
+	background: #193441;
 	color: #fff;
 }
 .project.raneto {
