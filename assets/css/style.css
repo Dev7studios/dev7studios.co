@@ -89,8 +89,8 @@ a.project {
 }
 .project-meta span { margin-right: 15px; }
 
-.project.sermon-hosting {
-	background: #0785f2;
+.project.fixer-ci {
+	background: #1d2671;
 	color: #fff;
 }
 .project.splashify {
