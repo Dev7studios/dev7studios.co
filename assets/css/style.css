@@ -89,12 +89,12 @@ a.project {
 }
 .project-meta span { margin-right: 15px; }
 
-.project.serializededitor {
-	background: #2e77b8;
+.project.chip-billing {
+	background: #8454BA;
 	color: #fff;
 }
-.project.fixer-ci {
-	background: #1d2671;
+.project.serializededitor {
+	background: #2e77b8;
 	color: #fff;
 }
 .project.splashify {
