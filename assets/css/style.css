@@ -89,17 +89,21 @@ a.project {
 }
 .project-meta span { margin-right: 15px; }
 
+.project.car-price-guide {
+	background: #9b4dca;
+	color: #fff;
+}
 .project.chip-billing {
-	background: #8454BA;
+	background: #4a90e2;
 	color: #fff;
 }
 .project.serializededitor {
-	background: #2e77b8;
+	background: #2f3843;
 	color: #fff;
 }
 .project.splashify {
-	background: #193441;
-	color: #fff;
+	background: #f5f5f5;
+	color: #193441;
 }
 .project.raneto {
 	background: #2c323d;
