@@ -89,6 +89,10 @@ a.project {
 }
 .project-meta span { margin-right: 15px; }
 
+.project.surveyr {
+	background: #1274ed;
+	color: #fff;
+}
 .project.splashify {
 	background: #636DC1;
 	color: #fff;
