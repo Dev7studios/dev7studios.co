@@ -89,6 +89,10 @@ a.project {
 }
 .project-meta span { margin-right: 15px; }
 
+.project.wpsocialpreview {
+	background: #162134;
+	color: #fff;
+}
 .project.formstatic {
 	background: #5a67d8;
 	color: #fff;
