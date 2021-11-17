@@ -89,6 +89,10 @@ a.project {
 }
 .project-meta span { margin-right: 15px; }
 
+.project.latermail {
+	background: #f9d72f;
+	color: #000;
+}
 .project.formstatic {
 	background: #5a67d8;
 	color: #fff;
