@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 	uglify = require('gulp-uglify');
 
 gulp.task('clean', function() {
-	return gulp.src(['assets/dist', 'assets/fonts'], {base: '/'})
+	return gulp.src(['assets/dist', 'assets/fonts'], {base: '/', allowEmpty: true})
 	    	   .pipe(clean());
 });
 
@@ -37,9 +37,10 @@ gulp.task('scripts', function() {
 	           .pipe(gulp.dest('assets/dist'));
 });
 
-gulp.task('watch', ['styles', 'scripts'], function() {
-	gulp.watch('assets/css/**/*.css', ['styles']);
-	gulp.watch('assets/js/**/*.js', ['scripts']);
-});
+gulp.task('watch', gulp.series('styles', 'scripts', function(done) {
+	gulp.watch('assets/css/**/*.css', gulp.series('styles'));
+	gulp.watch('assets/js/**/*.js', gulp.series('scripts'));
+    done();
+}));
 
-gulp.task('default', ['clean', 'copy-fonts', 'styles', 'scripts']);
+gulp.task('default', gulp.series(['clean', 'copy-fonts', 'styles', 'scripts']));
